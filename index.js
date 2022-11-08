@@ -428,6 +428,6 @@ app.get("/", (req, res) => {
 //   });
 // }
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3200, () => {
   console.log("Server started");
 });
